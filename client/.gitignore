@@ -1,0 +1,37 @@
+# 📦 Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# 🧪 Test Coverage
+coverage/
+
+# 🚀 Build-Output
+build/
+dist/
+
+# 🌍 Environment Variables
+.env
+.env.*.local
+
+# 🗑️ System-Dateien
+.DS_Store
+Thumbs.db
+
+# 🐞 Logfiles
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧵 Tailwind Cache (optional)
+.tailwind/
+
+# 💻 Editor (falls VSCode)
+.vscode/
+
+# 💅 PostCSS Config Cache
+.postcssrc*
+
+# ⚙️ Weitere generierte Dateien (z. B. lockfiles im falschen Ordner)
+client/package-lock.json
+server/package-lock.json
