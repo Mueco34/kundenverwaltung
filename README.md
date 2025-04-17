@@ -1,8 +1,12 @@
-# kundenverwaltung
+# 📚 Kundenverwaltung
 
+Ein Fullstack-Projekt zur Verwaltung von Kundendaten – mit **Node.js**, **Express**, **MongoDB**, **React** und **Tailwind CSS**. Entwickelt für Lernszenarien, zeigt es moderne Webentwicklung mit REST-API und stylischem UI.
 
-🚀 Installation
+---
 
+## 🚀 Installation
+
+```bash
 # Repository klonen
 git clone https://github.com/Mueco34/kundenverwaltung.git
 cd kundenverwaltung
@@ -12,32 +16,78 @@ cd server
 npm install
 cd ../client
 npm install
+```
 
-🧑‍💻 Entwicklung starten
-Server starten (Port z.B. 5000)
+---
 
+## 🧑‍💻 Entwicklung starten
+
+### 🖥 Backend (Port 5000)
+
+```bash
 cd server
 npm run dev
+```
 
-Client starten (Port z.B. 3000)
+### 🌐 Frontend (Port 3000)
 
+```bash
 cd client
 npm start
+```
 
-📁 .gitignore
+---
 
-Stellt sicher, dass node_modules, Umgebungsvariablen und Build-Dateien nicht in Git landen. Bereits konfiguriert.
-✅ Features
+## 🧰 Verwendete Technologien
 
-    Kunden hinzufügen / bearbeiten / löschen
+| Bereich     | Tech/Tool                     |
+|------------|-------------------------------|
+| Backend    | Node.js, Express, MongoDB     |
+| Frontend   | React, Tailwind CSS           |
+| Tools      | Postman (API-Test), Git/GitHub |
+| Sonstiges  | .env für Umgebungsvariablen   |
 
-    REST API mit Express
+---
 
-    Frontend mit React
+## ✅ Features
 
-    Modulare Projektstruktur
+- ➕ Kunden hinzufügen
+- ✏️ Kunden bearbeiten
+- ❌ Kunden löschen
+- 🔍 Kundenübersicht mit stylischem UI
+- 🔌 REST API mit Express
+- 🗃️ MongoDB für Datenpersistenz
+- 🎨 Tailwind für modernes Styling
+- 🧪 Getestet mit Postman
 
-📝 Lizenz
+---
 
-Dieses Projekt steht unter der MIT-Lizenz.
-Feel free to use, modify and share!
+## 🗂 Projektstruktur
+
+```plaintext
+├── client/         # React Frontend
+│   └── ...
+├── server/         # Express Backend mit MongoDB
+│   └── ...
+├── .gitignore
+├── README.md
+```
+
+---
+
+## 📁 .gitignore
+
+> `node_modules`, `.env.*`, `build/` und andere sensible Dateien sind bereits ausgeschlossen.
+
+---
+
+## 👤 Autor
+
+> Erstellt mit ❤️ von **Mueco34**  
+> [GitHub-Profil](https://github.com/Mueco34)
+
+---
+
+## 📝 Lizenz
+
+> MIT License – Feel free to use, modify and share!
